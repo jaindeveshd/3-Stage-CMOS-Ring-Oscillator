@@ -1,0 +1,20 @@
+# Simulation outputs and temporary files
+*.raw
+*.log
+*. bak
+*.tmp
+*.swp
+*~
+
+# Generated netlists (keep source schematics; commit selected netlists explicitly)
+*.spice.tmp
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
